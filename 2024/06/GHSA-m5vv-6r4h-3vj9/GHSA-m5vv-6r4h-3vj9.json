@@ -1,0 +1,69 @@
+{
+	"schema_version": "1.4.0",
+	"id": "GHSA-m5vv-6r4h-3vj9",
+	"modified": "2024-06-11T21:37:40Z",
+	"published": "2024-06-11T18:30:50Z",
+	"aliases": [
+		"CVE-2024-35255"
+	],
+	"summary": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+	"details": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability ",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+		}
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "azure-identity"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.16.1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35255"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/Azure/azure-sdk-for-go/commit/50774cd9709905523136fb05e8c85a50e8984499"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/Azure/azure-sdk-for-js/commit/c6aa75d312ae463e744163cedfd8fc480cc8d492"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/Azure/azure-sdk-for-python/commit/cb065acd7d0f957327dc4f02d1646d4e51a94178"
+		},
+		{
+			"type": "WEB",
+			"url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35255"
+		}
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-362"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2024-06-11T19:57:01Z",
+		"nvd_published_at": "2024-06-11T17:16:03Z",
+		"severity": "MODERATE"
+	}
+}
