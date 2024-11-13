@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.4.0",
 	"id": "GHSA-mmq6-q8r3-48fm",
-	"modified": "2021-05-17T21:16:27Z",
+	"modified": "2024-11-13T16:28:37Z",
 	"published": "2021-05-21T14:28:50Z",
 	"aliases": [
 		"CVE-2021-29617"
@@ -12,6 +12,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -32,12 +36,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -56,12 +55,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -80,12 +74,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -104,12 +93,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -128,12 +112,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -152,12 +131,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -176,12 +150,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -200,12 +169,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -224,12 +188,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -248,12 +207,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -272,12 +226,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		},
 		{
 			"package": {
@@ -296,12 +245,7 @@
 						}
 					]
 				}
-			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"tensorflow.strings.substr"
-				]
-			}
+			]
 		}
 	],
 	"references": [
@@ -319,11 +263,27 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-cpu/PYSEC-2021-545.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-gpu/PYSEC-2021-743.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow/PYSEC-2021-254.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/tensorflow/issues/46900"
 		},
 		{
 			"type": "WEB",
 			"url": "https://github.com/tensorflow/issues/46974"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/tensorflow/tensorflow"
 		}
 	],
 	"database_specific": {
