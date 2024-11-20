@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.4.0",
 	"id": "GHSA-hcpj-qp55-gfph",
-	"modified": "2024-09-20T18:00:23Z",
+	"modified": "2024-11-18T16:26:28Z",
 	"published": "2022-12-06T06:30:17Z",
 	"aliases": [
 		"CVE-2022-24439"
@@ -134,6 +134,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2022-12-06T14:33:52Z",
 		"nvd_published_at": "2022-12-06T05:15:00Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }
