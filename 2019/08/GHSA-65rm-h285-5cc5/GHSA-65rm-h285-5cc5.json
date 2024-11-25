@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.4.0",
 	"id": "GHSA-65rm-h285-5cc5",
-	"modified": "2024-11-18T22:12:13Z",
+	"modified": "2024-11-25T19:23:20Z",
 	"published": "2019-08-16T14:02:35Z",
 	"aliases": [
 		"CVE-2019-12855"
@@ -49,16 +49,16 @@
 			"url": "https://github.com/twisted/twisted/pull/1147"
 		},
 		{
-			"type": "ADVISORY",
-			"url": "https://github.com/advisories/GHSA-65rm-h285-5cc5"
-		},
-		{
 			"type": "WEB",
 			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/twisted/PYSEC-2019-129.yaml"
 		},
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/twisted/twisted"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PLTZDMFBNFSJMBXYJNGJHENJA4H2TSMZ"
 		},
 		{
 			"type": "WEB",
